@@ -51,14 +51,20 @@
             </footer>
         </div>
         <!--<script src="{{ asset('js/animaciones.js') }}" defer></script>-->
-        <script>
+        
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script>
 function apareceScroll() {
     var html = document.getElementsByTagName('html')[0];
     var elementoAparece = document.getElementsByClassName('aparece');
     console.log("Hola mundo");
-    $(window).scroll(function() {
+    $("body").on("scroll",function() {
         console.log("Hola");
-        var desplazamientoActual = $(document).scrollTop();
+        var desplazamientoActual = $("body").scrollTop();
         console.log("Estoy en ", desplazamientoActual);
         for (var i = 0; i < elementoAparece.length; i++) {
             var topelemAparece = elementoAparece[i].offsetTop;
@@ -69,10 +75,7 @@ function apareceScroll() {
         }
     });
 }
-
-        </script>
-        <script>
-            apareceScroll();
+apareceScroll();
         </script>
     </body>
 </html>
