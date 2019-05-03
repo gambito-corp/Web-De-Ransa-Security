@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'century751-sebd-bt-semi-bold';
+  src: url('../fonts/century751-sebd-bt-semi-bold.eot');
+  src: url('../fonts/century751-sebd-bt-semi-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/century751-sebd-bt-semi-bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -7,7 +7,15 @@ html, body {
     margin: 0;
     overflow-x: hidden !important;
 }
-
+.blue{
+    background-color: #1b1bc7;
+}
+.services-title{
+    color: grey !important;
+}
+.ransa{
+    font-family: 'century751-sebd-bt-semi-bold', serif;
+}
 .full-height {
     height: 100vh;
 }
@@ -85,7 +93,6 @@ html, body {
 }
 .hero-text h2{
     font-size:75px;
-    font-family: 'Fira Sans Extra Condensed', sans-serif !important;
 }
 .hero-text a{
     color: #fff !important;

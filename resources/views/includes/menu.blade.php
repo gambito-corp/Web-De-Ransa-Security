@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="{{route('inicio')}}">
             <img src="{{asset('img/logo.png')}}" alt="Logo de {{ config('app.name', 'Laravel') }}" class="logo-nav">
-            <strong style="font-weight: bold; ">{{ config('app.name', 'Laravel') }}</strong>
+            <strong class="ransa">{{ config('app.name', 'Laravel') }}</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -12,19 +12,31 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link ancla"  href="{{route('inicio')}}">Inicio</a>
+                    <a class="nav-link"  href="{{route('inicio')}}">Inicio</a>
                 </li>
                 <li class="nav-item">
+                    @if(isset($ancla))
                     <a class="nav-link ancla"  data-ancla="nosotros">Nosotros</a>
+                    @else
+                    <a class="nav-link"   href="{{route('inicio')}}#Nosotros">Nosotros</a>
+                    @endif
                 </li>
                 <li class="nav-item">
+                    @if(isset($ancla))
                     <a class="nav-link ancla"  data-ancla="servicios">Servicios</a>
+                    @else
+                    <a class="nav-link"   href="{{route('inicio')}}#Servicios">Servicios</a>
+                    @endif
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('galeria.index')}}">Galeria</a>
                 </li>
                 <li class="nav-item">
+                    @if(isset($ancla))
                     <a class="nav-link ancla" data-ancla="contacto">Contactanos</a>
+                    @else
+                    <a class="nav-link"  href="{{route('inicio')}}#Contactanos">Contactanos</a>
+                    @endif
                 </li>
             </ul>
 

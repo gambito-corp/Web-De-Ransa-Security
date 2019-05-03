@@ -15,8 +15,9 @@ use App\Testimonio;
 
 Route::get('/', function () {
     $testimonios = Testimonio::where('aprobado', 1)->get();
+    $ancla = true;
 
-    return view('welcome', ['testimonios' => $testimonios]);
+    return view('welcome', ['testimonios' => $testimonios, 'ancla' => $ancla]);
 })->name('inicio');
 
 Auth::routes(['verify' => true]);

@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('contenido')
-<section class="row animated fadeIn slower">
+<section class="row">
     <div class="col-md-12 hero-image">
-        <div class="hero-text ">
-            <h2>Ransa Security</h2>
+        <div class="hero-text">
+            <h2 class="ransa">Ransa Security</h2>
             <h3>Nuestra Seguridad Viene de Lejos</h3>
             <a data-ancla="contacto" class="tcb-basic-d tcb-primary ancla">Con&oacute;cenos</a>
         </div>
@@ -13,13 +13,13 @@
 <br>
 <div class="row">
     <div class="col-md-12 tc-heading-style5 tc-heading-center">
-        <h2 class="text-uppercase heading-inner">Como trabajamos</h2>
+        <h2 class="text-uppercase heading-inner">Nuestra Metodologia</h2>
         <br>
-        <small class="text-muted h3">Nuestra Metodologia</small>
+        <small class="text-muted h3"></small>
     </div>
 </div>
 <br>
-<section class="sec-spacer animated fadeIn delay-5s slower">
+<section class="sec-spacer">
 
     <div class="container">
         <div class="row tc-services-style4">
@@ -29,8 +29,8 @@
                         <i class="fa fa-handshake-o"></i>
                     </div>
                     <div class="services-desc">
-                        <h2 class="services-title">Nos Conocemos</h2>
-                        <p>Agendamos una Primera reunion donde presentamos al equipo de trabajo el cual recibira los lineamientos requeridos.</p>                        
+                        <h2 class="services-title">Conocenos</h2>
+                        <p>Agendamos una Primera reunion donde presentamos al equipo de trabajo el cual recibira los lineamientos requeridos.</p>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="services-desc">
                         <h2 class="services-title">Recolectamos Informacion</h2>
-                        <p>Se recolecta Informacion Sobre las vulnerabilidades de la institucion.</p>                        
+                        <p>Se recolecta Informacion Sobre las vulnerabilidades de la institucion.</p>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="services-desc">
                         <h2 class="services-title">Implementacion del plan</h2>
-                        <p>se desarrolla un plan de seguridad personalizado a la medida del cliente. </p><br>                        
+                        <p>se desarrolla un plan de seguridad personalizado a la medida del cliente. </p><br>
                     </div>
                 </div>
             </div>
@@ -63,14 +63,118 @@
                     </div>
                     <div class="services-desc">
                         <h2 class="services-title">Inicio del trabajo</h2>
-                        <p>disponemos a nuestro personal en los puntos criticos identificados asi como en puntos estrategicos.</p>                        
+                        <p>disponemos a nuestro personal en los puntos criticos identificados asi como en puntos estrategicos.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
 </section>
-<div class="gray">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="aparece" id="flotante">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1>Hola Mundo</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="gray animated">
     <br>
     <div class="container-fluid gray" id="nosotros">
         <div class="row">
@@ -97,7 +201,7 @@
                                     <img src="{{asset('img/nosotros.jpg')}}" alt="Imagen de Nosotros " width="225" height="129">
                                 </div>
                                 <div class="col-md-8">
-                                    <h3 class="tc-tab-title color-negro">Sobre Nosotros</h3>
+                                    <h3 class="tc-tab-title color-negro">¿Quienes Somos?</h3>
                                     <p class="tc-tab-desc">Somos una Empresa de nueva generacion con personal comprometido y experto, capaz de desempe&ntilde;ar las funciones encomendadas para apoyo de nuestros clientes y de nuestra sociedad. Responsable, comprometida, puntual y honesta.</p>
                                 </div>
                             </div>
@@ -105,7 +209,7 @@
                         <div id="tab2" class="tab-pane fade" role="tabpanel" aria-labelledby="mision-tab">
                             <div class="row">
                                 <div class="col-md-8 text-right">
-                                    <h3 class="tc-tab-title">Mision</h3>
+                                    <h3 class="tc-tab-title">Nuestro Objetivo</h3>
                                     <p class="tc-tab-desc">Brindar servicios inmediatos y eficientes en Seguridad garantizada a cabalidad la seguridad fisica y emocional de nuestros clientes.</p>
                                 </div>
                                 <div class="col-md-4">
@@ -119,7 +223,7 @@
                                     <img src="{{asset('img/vision.jpg')}}" alt="Imagen de Nosotros " width="225" height="129">
                                 </div>
                                 <div class="col-md-8">
-                                    <h3 class="tc-tab-title">Vision</h3>
+                                    <h3 class="tc-tab-title">Nuestro Fin</h3>
                                     <p class="tc-tab-desc">Ser lideres en la presentacion de servicios de Seguridad Personal yCorporativa en el mercado peruano ofreciendo para ello tecnologia de punta, personal altamente calificado y procedimientos tecnicos reglamentados.</p>
                                 </div>
                             </div>
