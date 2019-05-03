@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('contenido')
-<section class="row">
+<section class="row animated fadeInUpBig slower">
     <div class="col-md-12 hero-image">
         <div class="hero-text">
             <h2 class="ransa">Ransa Security</h2>
@@ -11,7 +11,7 @@
     </div>
 </section>
 <br>
-<div class="row">
+<div class="row fade animated lightSpeedOut slow">
     <div class="col-md-12 tc-heading-style5 tc-heading-center">
         <h2 class="text-uppercase heading-inner">Nuestra Metodologia</h2>
         <br>
@@ -19,11 +19,11 @@
     </div>
 </div>
 <br>
-<section class="sec-spacer">
+<section class="sec-spacer animated">
 
     <div class="container">
         <div class="row tc-services-style4">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 animated delay-1s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-handshake-o"></i>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 animated delay-2s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-list-alt"></i>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 animated delay-3s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-check-square-o"></i>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 animated delay-4s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-user"></i>
@@ -69,111 +69,12 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
 </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<section class="aparece" id="flotante">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
+<section class="animated " id="flotante">
     <center>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
         <h1>Hola Mundo</h1>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
     </center>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
 </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <div class="gray animated">
     <br>
     <div class="container-fluid gray" id="nosotros">

@@ -12,11 +12,15 @@
 
         <!-- Scripts -->
 
-        <script src="{{ asset('js/jquery-3.3.1.js') }}" defer></script>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
 
-<!--<script src="{{ asset('js/app.js') }}" defer></script>-->
-<!--<script src="{{ asset('js/datatables.js') }}" defer></script>-->
-<!--        <script src="{{ asset('js/main.js') }}" defer></script>-->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/datatables.js') }}" defer></script>
+        <script src="{{ asset('js/main.js') }}" defer></script>
 
 
 
@@ -51,31 +55,12 @@
             </footer>
         </div>
         <!--<script src="{{ asset('js/animaciones.js') }}" defer></script>-->
-        
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
 
-<script>
-function apareceScroll() {
-    var html = document.getElementsByTagName('html')[0];
-    var elementoAparece = document.getElementsByClassName('aparece');
-    console.log("Hola mundo");
-    $("body").on("scroll",function() {
-        console.log("Hola");
-        var desplazamientoActual = $("body").scrollTop();
-        console.log("Estoy en ", desplazamientoActual);
-        for (var i = 0; i < elementoAparece.length; i++) {
-            var topelemAparece = elementoAparece[i].offsetTop;
-            if (desplazamientoActual > topelemAparece) {
-                console.log('helloohelloohe');
-                elementoAparece[i].classList.add('hola');
-            }
-        }
-    });
-}
-apareceScroll();
+
+        <script src="{{ asset('js/animaciones.js') }}" defer></script>
+        <script>
+apareceScrollfade();
+apareceScrollBounce();
         </script>
     </body>
 </html>
