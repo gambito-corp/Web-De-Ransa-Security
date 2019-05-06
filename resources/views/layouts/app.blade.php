@@ -49,7 +49,9 @@
         </div>
 
         <script src="{{ asset('js/animaciones.js') }}" defer></script>
+        @if(isset($ancla))
         <script>
+
 apareceScrollfaders();
 apareceScrollBounce();
 apareceScrollfade();
@@ -57,5 +59,6 @@ apareceScrollfadersServicio();
 apareceScrollBounce2();
 apareceScrollOpinion();
         </script>
+        @endif
     </body>
 </html>
