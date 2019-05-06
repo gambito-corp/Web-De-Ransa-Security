@@ -11,7 +11,7 @@
     </div>
 </section>
 <br>
-<div class="row fade animated lightSpeedOut slow">
+<div class="row faders animated lightSpeedOut slow">
     <div class="col-md-12 tc-heading-style5 tc-heading-center">
         <h2 class="text-uppercase heading-inner">Nuestra Metodologia</h2>
         <br>
@@ -23,7 +23,7 @@
 
     <div class="container">
         <div class="row tc-services-style4">
-            <div class="col-md-3 col-sm-6 animated delay-1s">
+            <div class="col-md-3 col-sm-6 animated bouncers delay-1s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-handshake-o"></i>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 animated delay-2s">
+            <div class="col-md-3 col-sm-6 animated bouncers delay-2s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-list-alt"></i>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 animated delay-3s">
+            <div class="col-md-3 col-sm-6 animated bouncers delay-3s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-check-square-o"></i>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 animated delay-4s">
+            <div class="col-md-3 col-sm-6 animated bouncers delay-4s">
                 <div class="services-item">
                     <div class="services-icon">
                         <i class="fa fa-user"></i>
@@ -70,14 +70,10 @@
         </div>
     </div>
 </section>
-<section class="animated " id="flotante">
-    <center>
-        <h1>Hola Mundo</h1>
-    </center>
-</section>
-<div class="gray animated">
+
+<div class="blue animated faders2 slower">
     <br>
-    <div class="container-fluid gray" id="nosotros">
+    <div class="container-fluid blue" id="nosotros">
         <div class="row">
             <div class="col-md-5">
                 <h3 class="title">Nosotros</h3>
@@ -141,7 +137,7 @@
 <section class="sec-spacer" id="servicios">
     <div class="container-fluid container-center">
         <div class="row">
-            <div class="col-md-12 tc-heading-style5 tc-heading-center">
+            <div class="col-md-12 tc-heading-style5 tc-heading-center animated fadersServicio">
                 <h2 class="text-uppercase heading-inner">Servicios</h2>
                 <br>
                 <small class="text-muted h3">Nuestras areas de trabajo</small>
@@ -149,7 +145,7 @@
         </div>
         <br>
         <div class="row tc-services-style2">
-            <div class="col-md-3">
+            <div class="col-md-3 animated bouncers2 delay-1s">
                 <div class="tc-flipbox-wrap">
                     <div class="horizontal-flip-left">
                         <div class="front-part">
@@ -178,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 animated bouncers2 delay-2s">
                 <div class="tc-flipbox-wrap">
                     <div class="horizontal-flip-left">
                         <div class="front-part">
@@ -208,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 animated bouncers2 delay-3s">
                 <div class="tc-flipbox-wrap">
                     <div class="horizontal-flip-left">
                         <div class="front-part">
@@ -242,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 animated bouncers2 delay-4s">
                 <div class="tc-flipbox-wrap">
                     <div class="horizontal-flip-left">
                         <div class="front-part">
@@ -281,7 +277,7 @@
 </section>
 <!-- Flipbox Services Style2 Effect End -->
 
-<div class="blue container-fluid">
+<div class="blue container-fluid animated opinionFade">
 
     <div class="row">
         <div class="col-md-12 tc-heading-style5 tc-heading-center">
@@ -395,7 +391,7 @@
                 </div>
             </div>
             <div class="form-button">
-                <button type="submit">Enviar</button>
+                <button type="submit" class="enviosi">Enviar</button>
             </div>
         </form>
     </div>

@@ -7,9 +7,7 @@ html, body {
     margin: 0;
     overflow-x: hidden !important;
 }
-.blue{
-    background-color: #1b1bc7;
-}
+
 .services-title{
     color: grey !important;
 }
@@ -110,7 +108,14 @@ html, body {
 }
 .blue{
     min-height: 20vh;
-    background: linear-gradient(135deg, rgba(26,26,199,.8) 20%, rgba(26,26,199,0.62) 58%, rgba(26,26,199,1) 100%);
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(3,21,140,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(3,21,140,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(3,21,140,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(3,21,140,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(3,21,140,1) 100%);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(3,21,140,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#03158c', GradientType=1 );
     z-index: -1;
 }
 .blue h2{
@@ -144,4 +149,25 @@ html, body {
 }
 .avatar-config img{
     height: inherit;
+}
+input::-webkit-input-placeholder {
+    color: #fff !important;
+}
+input:-moz-placeholder {
+    color: #fff !important;
+}
+input:-ms-input-placeholder {
+    color: #fff !important;
+}
+textarea::-webkit-input-placeholder {
+    color: #fff !important;
+}
+textarea:-moz-placeholder {
+    color: #fff !important;
+}
+textarea:-ms-input-placeholder {
+    color: #fff !important;
+}
+.enviosi{
+    color: #fff !important;
 }

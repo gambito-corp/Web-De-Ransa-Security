@@ -7,7 +7,6 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link href="{{asset('img/logo.ico')}}" rel="shortcut icon" />
         <meta name="theme-color" content="#2E2EFE">
-
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Scripts -->
@@ -15,16 +14,10 @@
         <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous">
-        </script>
-
+        crossorigin="anonymous"></script>
         <script src="{{ asset('js/app.js') }}" defer></script>
         <script src="{{ asset('js/datatables.js') }}" defer></script>
         <script src="{{ asset('js/main.js') }}" defer></script>
-
-
-
-
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -54,13 +47,15 @@
                 <p class="text-center">Web desarrollada por GambitoCorp &COPY; para <span class="text-capitalize">{{ config('app.name', 'Laravel') }} &COPY;</span> todos los derechos reservados {{date('Y')}}</p>
             </footer>
         </div>
-        <!--<script src="{{ asset('js/animaciones.js') }}" defer></script>-->
-
 
         <script src="{{ asset('js/animaciones.js') }}" defer></script>
         <script>
-apareceScrollfade();
+apareceScrollfaders();
 apareceScrollBounce();
+apareceScrollfade();
+apareceScrollfadersServicio();
+apareceScrollBounce2();
+apareceScrollOpinion();
         </script>
     </body>
 </html>
