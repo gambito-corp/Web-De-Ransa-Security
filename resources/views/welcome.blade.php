@@ -76,7 +76,7 @@
     <div class="container-fluid blue" id="nosotros">
         <div class="row">
             <div class="col-md-5">
-                <h3 class="title">Nosotros</h3>
+                <h3 class="title noblanco">Nosotros</h3>
             </div>
             <div class="col-md-7">
                 <div class="tc-tabs-style5">
